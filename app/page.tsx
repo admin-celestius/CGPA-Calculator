@@ -159,6 +159,8 @@ export default function GPACalculator() {
 
   return (
     <div className="container mx-auto p-4">
+      <Image src="/athena.webp" alt="" aria-hidden="true" width={901} height={1600} className="mascot mascot-athena" />
+      <Image src="/hephaestus.webp" alt="" aria-hidden="true" width={975} height={1600} className="mascot mascot-hephaestus" />
       <Card className="w-full max-w-2xl mx-auto calculator-card text-white">
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-center">
